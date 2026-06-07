@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MrAnonymous</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-logo">~/<span>MrAnonymous</span></div>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#servers">Servers</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<div id="main-content"></div>
+
+<footer>
+  <div class="footer-right">© 2026 MrAnonymous</div>
+</footer>
+
+<template data-section="hero">
+  <div class="hero fade-in" id="about">
+    <!-- <div class="hero-tag">Available for freelance work</div> -->
+    <h1>MrAnonymous<span class="underscore"></span></h1>
+    <p class="hero-bio">
+      FiveM server developer &amp; administrator.
+      Lua resources on <strong>ESX Legacy</strong>.
+    </p>
+    <div class="hero-cta">
+      <a href="#projects" class="btn btn-primary">View Projects →</a>
+      <a href="#contact" class="btn btn-secondary">Get in touch</a>
+    </div>
+  </div>
+</template>
+
+<template data-section="skills">
+  <section id="skills" class="fade-in">
+    <div class="section-label">Skills &amp; Tech Stack</div>
+    <div class="skills-grid">
+   <div class="skill-card"><div class="skill-cat">Language</div><div class="skill-name">Lua</div><div class="skill-bar-wrap"><div class="skill-bar" style="width:93%"></div></div></div>
+    <div class="skill-card"><div class="skill-cat">Framework</div><div class="skill-name">ESX Legacy</div><div class="skill-bar-wrap"><div class="skill-bar" style="width:95%"></div></div></div>
+    <div class="skill-card"><div class="skill-cat">Database</div><div class="skill-name">MySQL</div><div class="skill-bar-wrap"><div class="skill-bar" style="width:88%"></div></div></div>
+    <div class="skill-card"><div class="skill-cat">Language</div><div class="skill-name">JavaScript</div><div class="skill-bar-wrap"><div class="skill-bar" style="width:80%"></div></div></div>
+    <div class="skill-card"><div class="skill-cat">Runtime</div><div class="skill-name">Node.js</div><div class="skill-bar-wrap"><div class="skill-bar" style="width:75%"></div></div></div>
+    <div class="skill-card"><div class="skill-cat">Library</div><div class="skill-name">discord.js v14</div><div class="skill-bar-wrap"><div class="skill-bar" style="width:80%"></div></div></div>
+    <div class="skill-card"><div class="skill-cat">Frontend</div><div class="skill-name">HTML / CSS / NUI</div><div class="skill-bar-wrap"><div class="skill-bar" style="width:72%"></div></div></div>
+    <div class="skill-card"><div class="skill-cat">Infra</div><div class="skill-name">txAdmin </div><div class="skill-bar-wrap"><div class="skill-bar" style="width:85%"></div></div></div>
+    <div class="skill-card"><div class="skill-cat">Infra</div><div class="skill-name">Linux / VPS (Ubuntu)</div><div class="skill-bar-wrap"><div class="skill-bar" style="width:78%"></div></div></div>
+    <div class="skill-card"><div class="skill-cat">OS</div><div class="skill-name">Arch / Hyprland</div><div class="skill-bar-wrap"><div class="skill-bar" style="width:70%"></div></div></div>
+    <div class="skill-card"><div class="skill-cat">Platform</div><div class="skill-name">FiveM </div><div class="skill-bar-wrap"><div class="skill-bar" style="width:82%"></div></div></div>
+    <div class="skill-card"><div class="skill-cat">Tool</div><div class="skill-name">Git / GitHub</div><div class="skill-bar-wrap"><div class="skill-bar" style="width:74%"></div></div></div>
+    </div>
+  </section>
+</template>
+
+<template data-section="projects">
+  <section id="projects" class="fade-in">
+    <div class="section-label">Projects</div>
+    <div class="projects-list">
+      <div class="project-row">
+        <div>
+          <div class="project-name">NodeCore Development</div>
+          <div class="project-desc">Discord bot development side project. Provides bot infrastructure and development services for communities.</div>          <div class="project-tags"><span class="tag">Node.js</span><span class="tag">discord.js</span><span class="tag">Hosting</span></div>
+        </div>
+        <div class="project-arrow">↗</div>
+      </div>
+      </a>
+    </div>
+  </section>
+</template>
+
+<!-- <template data-section="servers">
+  <section id="servers" class="fade-in">
+    <div class="section-label">Server Status</div>
+    <div class="servers-grid" id="servers-grid"></div>
+  </section>
+</template> -->
+
+<template data-section="contact">
+  <section id="contact" class="fade-in">
+    <div class="section-label">Contact &amp; Socials</div>
+    <div class="contact-grid">
+      <a class="contact-link" href="https://github.com/Mr-AnonymousOfficial" target="_blank">
+        <div class="contact-label-wrap"><div class="contact-platform">GitHub</div><div class="contact-handle">Mr-AnonymousOfficial</div></div>
+        <div class="contact-arr">↗</div>
+      </a>
+      <a class="contact-link" href="https://discord.com/users/mranonymous.official" target="_blank">
+      <div class="contact-label-wrap"><div class="contact-platform">Discord</div><div class="contact-handle">mranonymous.official</div></div>        <div class="contact-arr">↗</div>
+      </a>
+      <a class="contact-link" href="mailto:mranonymousofficial00@gmail.com">
+        <div class="contact-label-wrap"><div class="contact-platform">Email</div><div class="contact-handle">mranonymousofficial00@gmail.com</div></div>
+        <div class="contact-arr">↗</div>
+      </a>
+    </div>
+  </section>
+</template>
+
+<script src="main.js"></script>
+</body>
+</html>

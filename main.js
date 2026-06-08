@@ -1,4 +1,3 @@
-// ── Section loader από <template> tags (χωρίς fetch/CORS) ──
 function loadSections() {
   const main = document.getElementById('main-content');
   document.querySelectorAll('template[data-section]').forEach(tpl => {
@@ -8,7 +7,6 @@ function loadSections() {
   loadServers();
 }
 
-// ── Observers ─────────────────────────────────────────────
 function initObservers() {
   const fadeObs = new IntersectionObserver(entries => {
     entries.forEach(e => {
@@ -32,7 +30,6 @@ function initObservers() {
   document.querySelectorAll('.skills-grid').forEach(el => skillObs.observe(el));
 }
 
-// ── Servers ───────────────────────────────────────────────
 const servers = [
   { game: 'FiveM',     name: 'Dangerous RP', ip: 'cfx.re', players: null, max: 64 },
   { game: 'Minecraft', name: 'MC Server',     ip: null,     players: null, max: 20 },
